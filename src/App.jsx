@@ -4,11 +4,11 @@ import iconLuxury  from "./assets/icon-luxury.svg"
 
 export default function App() {
 return (
-  <main>
+  <main className="min-h-svh bg-offwhitebg py-20 px-6">
     <section>
       <div className="bg-orange">
         <img src={iconSedans} alt="ícone dos carros Sedan" />
-        <h2 className="font-shoulders">Sedans</h2>
+        <h2 className="font-shoulders"> Sedans</h2>
         <p className="font-lexend">Escolha um sedan pelo seu preço acessível e excelente economia de combustível. Ideal para dirigir na cidade ou na sua próxima viagem.</p>
         <a className="font-lexend" href="https://www.webmotors.com.br/sedans" target="_blank">Ver mais</a>
       </div>
